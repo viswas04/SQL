@@ -1,0 +1,48 @@
+SQL stands for Structured Query Language. It is a standardized programming language used to communicate with and manage data in a relational database management system (RDBMS). SQL enables users to create, modify, retrieve, and manage data stored in tables (which are organized as rows and columns) within a database.
+
+Some key features of SQL include:
+
+1. **Data Querying**: SQL allows users to query the database to retrieve specific information using the SELECT statement.
+
+2. **Data Manipulation**: Users can insert, update, and delete data within the database using INSERT, UPDATE, and DELETE statements.
+
+3. **Data Definition**: SQL provides commands to define and modify the structure of database objects, such as tables and indexes, using CREATE, ALTER, and DROP statements.
+
+4. **Data Control**: SQL includes features for controlling access to data, such as granting and revoking permissions.
+
+5. **Transaction Management**: SQL supports transactions, allowing users to group multiple operations into a single unit of work that can be committed or rolled back.
+
+Overall, SQL is a powerful tool for managing and interacting with relational databases, making it an essential skill for database administrators, developers, and data analysts.
+
+
+SQL is divided into several categories based on the type of operations:
+
+1. DDL (Data Definition Language):
+Defines and modifies database structure.
+
+CREATE (create tables, views)
+ALTER (modify tables)
+DROP (delete tables)
+TRUNCATE (remove all rows)
+2. DML (Data Manipulation Language):
+Manages data within tables.
+
+INSERT (add data)
+UPDATE (modify data)
+DELETE (remove data)
+3. DQL (Data Query Language):
+Queries data from tables.
+
+SELECT (retrieve data)
+4. DCL (Data Control Language):
+Controls access to data.
+
+GRANT (give permissions)
+REVOKE (remove permissions)
+5. TCL (Transaction Control Language):
+Manages transactions.
+
+COMMIT (save changes)
+ROLLBACK (undo changes)
+SAVEPOINT (set a point to rollback to)
+
