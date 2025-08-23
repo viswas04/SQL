@@ -19,3 +19,16 @@ SET column1 = value1, column2 = value2, ...
 WHERE condition;
 
 
+//COMMANDS TO DELETE DATA FROM A TABLE
+DELETE FROM table_name
+WHERE condition;    
+
+//COMMANDS TO DROP A TABLE
+DROP TABLE table_name;
+
+//COMMANDS TO DROP A DATABASE
+DROP DATABASE database_name;
+
+//COMMANDS TO TRUNCATE A TABLE
+TRUNCATE TABLE table_name;
+
